@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Messenger" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar"/>
+
+    <style name="Theme.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/background_light</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
+        <item name="android:animationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.Messenger</item>
+    </style>
+
+    <style name="Theme.Splash.DialogTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+
+    <style name="BottomSheetBackgroundAnim" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_16_top_corners_bottom</item>
+    </style>
+
+    <style name="Theme.ImagePickerBottomSheet" parent="@style/Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="bottomSheetStyle">@style/BottomSheetBackgroundAnim</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

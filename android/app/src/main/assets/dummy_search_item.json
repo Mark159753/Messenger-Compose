@@ -1,0 +1,27 @@
+{
+  "created_at": "2023-06-01T12:26:42.752Z",
+  "updated_at": "2023-05-30T09:08:23.383Z",
+  "id": "2354a009-3907-4b74-aaf0-4a6abe69fd97",
+  "first_name": "Mark",
+  "last_name": "Mel1",
+  "nick_name": "@mark1",
+  "phone": "123123123",
+  "isOnline": false,
+  "email": "mark1@mail.ru",
+  "chats": [
+    {
+      "created_at": "2023-05-31T12:54:11.753Z",
+      "updated_at": "2023-05-31T12:54:11.753Z",
+      "id": "f9b09593-9d25-49e5-b883-9ce9cd552b1b",
+      "messages": [
+        {
+          "created_at": "2023-06-01T06:11:16.237Z",
+          "updated_at": "2023-06-01T06:11:16.237Z",
+          "id": "3820ba8f-8455-4898-b381-adf8bad78ed7",
+          "message": "hello again",
+          "chatId": "f9b09593-9d25-49e5-b883-9ce9cd552b1b"
+        }
+      ]
+    }
+  ]
+}

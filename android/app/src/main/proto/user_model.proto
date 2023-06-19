@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "com.example.messenger";
+option java_multiple_files = true;
+
+message User {
+  string id = 1;
+  string first_name = 2;
+  string last_name = 3;
+  string nick_name = 4;
+  string email = 5;
+  bool isOnline = 6;
+  string avatar = 7;
+  string phone = 8;
+  string created_at = 9;
+  string updated_at = 10;
+}

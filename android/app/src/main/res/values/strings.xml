@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Messenger</string>
+
+    <!--StartScreen-->
+    <string name="start_screen_login_btn">LOGIN</string>
+    <string name="start_screen_get_start_msg">Let\’s Get \nStarted</string>
+    <string name="start_screen_sign_up_btn">SIGN UP</string>
+    <string name="start_screen_back_image_description">Back image</string>
+    <string name="start_screen_logo_image_description">App Logo</string>
+
+    <!--SignInScreen-->
+    <string name="sign_in_screen_email_label">Email</string>
+    <string name="sign_in_screen_email_placeholder">example@gmail.com</string>
+    <string name="sign_in_screen_password_label">Password</string>
+
+    <!--SignUpScreen-->
+    <string name="sign_up_screen_next_btn">Next</string>
+
+    <string name="sign_up_step_1_title">Registration</string>
+    <string name="sign_up_step_1_subtitle">Please enter your credentials to proceed</string>
+    <string name="sign_up_step_1_phone_label">Phone</string>
+    <string name="sign_up_step_1_email_label">Email</string>
+    <string name="sign_up_step_1_password_label">Password</string>
+    <string name="sign_up_step_1_repeat_password_label">Repeat Password</string>
+
+    <string name="sign_up_step_2_title">Introduce Yourself</string>
+    <string name="sign_up_step_2_subtitle">Please come up with a nickname</string>
+    <string name="sign_up_step_2_first_name_label">First Name</string>
+    <string name="sign_up_step_2_last_name_label">Last Name</string>
+    <string name="sign_up_step_2_nickname_label">Nickname</string>
+
+    <string name="sign_up_step_3_title">Choose Photo</string>
+    <string name="sign_up_step_3_subtitle">To make it easier for your friends to recognize you</string>
+
+    <!--Form validation messages-->
+    <string name="text_validation_error_empty_field">Empty field</string>
+    <string name="text_validation_error_email">Wrong email address</string>
+    <string name="text_validation_error_min_pass_length">The minimum length of password is 6</string>
+    <string name="text_validation_error_max_pass_length">The maximum length of password is 12</string>
+    <string name="text_validation_error_passwords_not_match">Passwords do not match</string>
+    <string name="text_validation_error_phone_number_short">Phone number is too short</string>
+    <string name="text_validation_error_phone_number_must_be_digits">Phone number can contain only digits</string>
+
+    <!--Common-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!--Logout Dialog-->
+    <string name="logout_dialog_question">Do you really want to logout?</string>
+
+    <!--HomeScreen-->
+    <string name="home_screen_toolbar_title">Chat app</string>
+    <string name="home_screen_remove_chat_msg">Do you really want to delete this chat?</string>
+
+    <!--SearchScreen-->
+    <string name="search_screen_hint">Search</string>
+
+    <!--ChatScreen-->
+    <string name="chat_screen_hint">Type a message…</string>
+    <string name="chat_screen_empty_message_list">You don\’t have any massages</string>
+
+    <!--ImagePickerBottomDialog-->
+    <string name="image_picker_bottom_dialog_gallery">Gallery</string>
+
+    <!--Drawer Menu-->
+    <string name="drawer_menu_contacts">Contacts</string>
+    <string name="drawer_menu_people_nearby">People nearby</string>
+    <string name="drawer_menu_settings">Settings</string>
+    <string name="drawer_menu_logout">Logout</string>
+</resources>

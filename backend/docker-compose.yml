@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  posgres-db:
+    container_name: postgres-db-messenger
+    image: postgres:13
+    restart: always
+    env_file:
+      - ./src/config/env/.env.dev
+    environment:
+      - POSTGRES_USER=${TYPEORM_USERNAME}
+      - POSTGRES_PASSWORD=${TYPEORM_PASSWORD}
+      - POSTGRES_DB=${TYPEORM_DATABASE}
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - ${TYPEORM_PORT}:${TYPEORM_PORT}
